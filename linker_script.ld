@@ -1,5 +1,6 @@
 ENTRY(reset_handler)
 /* Define memory regions, where FLASH and SRAM lie in the STM32 */
+MEMORY
 {
   FLASH (rx): ORIGIN = 0x08000000, LENGTH = 128K
   SRAM (rwx): ORIGIN = 0X20000000, LENGTH = 32K
